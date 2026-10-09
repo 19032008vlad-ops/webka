@@ -1,0 +1,156 @@
+p{
+    color: red;
+    border: 4px dotted red;
+    border-color: red;
+    border-left-style:solid;
+    border-radius: 10px;
+    text-align: center;
+    text-transform: capitalize; 
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+
+#para1{
+    color: green;
+}
+
+.colortext{
+    color:blue;
+}
+
+h1{
+    width: 50%;
+    height: 100px;
+    background-color: lightblue;
+    border-left-width: 20px;
+    margin: 20px 40px 20px 40px;
+    margin:auto;
+    margin-top: 30px;
+    margin: 30px;
+    padding: 40px 10px 40px 10px;
+    text-transform: uppercase; 
+    font-family: Verdana;
+    font-style: italic;
+    font-size: 50px;
+    visibility: hidden;
+    display: none;
+    position: fixed;
+    top: 50px;
+    right: 10px;
+    position: relative;
+    top: 50px;
+    position: fixed;
+    top: 50px;
+    position: absolute;
+    top: 0;
+    z-index: 1;  
+
+}
+
+body{
+    background-image: url('background.avif');
+    background-color: yellow;
+    background-repeat: repeat-y;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.text{
+    width: 200px;
+    border: 2px solid red;
+    padding: 25px;
+    margin-left: 25px;
+    outline: 5px solid black;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: green;
+}
+
+.intro {
+    text-indent: 20px;
+}
+
+ul {
+    list-style-type: square;
+    list-style-image: url('assets/klematis.jpg');
+    list-style: none;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+table {
+    border:2px solid green;
+    border-collapse: collapse;
+}
+
+th {
+    border:2px solid green;
+    padding: 15px;
+    background-color: lightblue;
+
+}
+
+td {
+   border:2px solid green;
+   text-align: right;
+}
+
+li {
+    display: inline;
+}
+
+strong {
+    display: block;
+}
+
+div {
+    overflow-x: scroll;
+
+}
+
+div p {
+    color: blue;
+    overflow: hidden;
+}
+
+div > p {
+    color: rgb(217, 255, 0);
+}
+
+div + p {
+    color: rgb(255, 0, 242);
+}
+
+
+input:focus {
+    background-color: red;
+}
+
+img {
+opacity: 0.5;
+}
+
+img:hover {
+    opacity: 1; 
+}
+
+p::first-letter {
+    background-color: yellow;
+}
